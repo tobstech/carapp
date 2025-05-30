@@ -32,7 +32,7 @@ This is a Java command-line application that parses car data from an XML and a C
 2. **Parse CSV**:
    - Loads brand and release date.
 3. **Map model to brand**:
-   - Dynamically or manually associate models with brands.
+   - Manually associate models with brands.
 4. **Filter**:
    - By brand name (case-insensitive)
    - By max price in USD
@@ -54,11 +54,10 @@ This is a Java command-line application that parses car data from an XML and a C
    ```java
    filterByBrand = "Toyota";
    filterByPrice = 50000.0;
-   sortBy = "price"; // or "releaseDate"
    
-### From Eclipse or IntelliJ
+### From Command Line
 1. mvn clean package
-2. java -cp target/CarApp-1.0-SNAPSHOT.jar carapp.CarApp
+2. java -cp target/carapp-0.0.1-SNAPSHOT-jar-with-dependencies.jar carapp.CarApp
 
 
 

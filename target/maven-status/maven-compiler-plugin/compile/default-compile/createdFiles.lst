@@ -1,5 +1,7 @@
 carapp\car\CarsType.class
 carapp\utils\Utils.class
+carapp\utils\Currency.class
 carapp\CarApp.class
+carapp\utils\XmlTags.class
 carapp\car\CarsBrand.class
 carapp\car\Car.class
