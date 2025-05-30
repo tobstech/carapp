@@ -56,8 +56,8 @@ This is a Java command-line application that parses car data from an XML and a C
    filterByPrice = 50000.0;
    
 ### From Command Line
-1. mvn clean package
-2. java -cp target/carapp-0.0.1-SNAPSHOT-jar-with-dependencies.jar carapp.CarApp
+1. run "mvn clean package"
+2. run "java -cp target/carapp-0.0.1-SNAPSHOT-jar-with-dependencies.jar carapp.CarApp"
 
 
 
